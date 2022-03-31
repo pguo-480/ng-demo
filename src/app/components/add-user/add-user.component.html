@@ -1,0 +1,10 @@
+<label for="name">Name: </label>
+<input id="name" type="text" [formControl]="name">
+
+<label for="age">Name: </label>
+<input id="age" type="text" [formControl]="age">
+
+<p> Name: {{name.value}}  Age: {{age.value}}</p>
+
+<button type="button" (click)="add()">Add</button>
+
